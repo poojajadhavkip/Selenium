@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Regression1]">
+  <test name="Test1(failed)">
+    <classes>
+      <class name="com.trackive_next_test.ForgetPwd_Test">
+        <methods>
+          <include name="enterEmailClickSendpwd"/>
+          <include name="postcondition"/>
+          <include name="preconditions"/>
+        </methods>
+      </class> <!-- com.trackive_next_test.ForgetPwd_Test -->
+      <class name="com.trackive_next_test.ResetPwd_Test">
+        <methods>
+          <include name="enterPwdClickChangePwd"/>
+        </methods>
+      </class> <!-- com.trackive_next_test.ResetPwd_Test -->
+      <class name="com.trackive_next_test.ResetPwdLink_Test">
+        <methods>
+          <include name="resetPwdLink"/>
+        </methods>
+      </class> <!-- com.trackive_next_test.ResetPwdLink_Test -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Regression1] -->
